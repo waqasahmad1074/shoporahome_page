@@ -1,0 +1,561 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: white;
+    font-family: 'Lucida Sans';
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+.main-header
+{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    
+}
+.main-header a
+{
+    text-decoration: none;
+}
+.first {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.first img {
+    height: 40px;
+    width: 150px;
+}
+
+.first input {
+    height: 30px;
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.one
+{
+    color: rgb(206, 19, 34);
+}
+.two
+{
+    color: #03011f;
+}
+.three
+{
+color: rgb(32, 32, 32);
+}
+.four
+{
+color: rgb(32, 32, 32);
+}
+.five
+{
+color: rgb(32, 32, 32);
+}
+
+.second-header
+{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.home-header
+{
+    display: flex;
+    gap: 30px;
+    color: white;
+    padding: 10px;
+    align-items: flex-start;
+}
+.home-header a {
+    text-decoration: none;
+    color:rgb(32, 32, 32);;
+}
+.categories
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.sidebar {
+    width: 15%;
+    height: 100%;
+    background-color: #180bc9;
+    padding: 20px;
+}
+.style
+{
+    margin-top: 20px;
+    color: white;
+}
+.second
+{
+    width: 85%;
+    height: 100%;
+}
+.row1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.row1 label
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+.row1 input
+{
+    height: 30px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 20px;
+   
+}
+.shop
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card1
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card1 img {
+    height: 50%;
+    width: 100%;
+}
+.card1 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card1 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card1 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card1 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card2
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card2 img {
+    height: 50%;
+    width: 100%;
+}
+.card2 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card2 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card2 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card2 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card3
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card3 img {
+    height: 50%;
+    width: 100%;
+}
+.card3 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card3 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card3 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card3 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card4
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card4 img {
+    height: 50%;
+    width: 100%;
+}
+.card4 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card4 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card4 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card4 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card5
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card5 img {
+    height: 50%;
+    width: 100%;
+}
+.card5 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card5 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card5 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card5 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}.card6
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card6 img {
+    height: 50%;
+    width: 100%;
+}
+.card6 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card6 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card6 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card6 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card7
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card7 img {
+    height: 50%;
+    width: 100%;
+}
+.card7 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card7 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card7 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card7 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 11px;
+    font-size: 11px;
+}
+.card8
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card8 img {
+    height: 50%;
+    width: 100%;
+}
+.card8 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card8 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card8 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card8 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card9
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card9 img {
+    height: 50%;
+    width: 100%;
+}
+.card9 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card9 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card9 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card9 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.card10
+{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.card10 img {
+    height: 50%;
+    width: 100%;
+}
+.card10 h4
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card10 p
+{
+    color: gray;
+    padding-top: 10px;
+    
+}
+.card10 h5
+{
+    color: black;
+    padding-top: 10px;
+    
+}
+.card10 button
+{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
